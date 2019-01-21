@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -672,21 +673,11 @@
 <pad name="142" x="54.61" y="59.69" drill="1"/>
 <pad name="143" x="52.07" y="57.15" drill="1"/>
 <pad name="144" x="52.07" y="59.69" drill="1"/>
-<pad name="A0" x="6.35" y="41.91" drill="1"/>
-<pad name="A1" x="3.81" y="41.91" drill="1"/>
-<pad name="A4" x="6.35" y="44.45" drill="1"/>
-<pad name="A5" x="3.81" y="44.45" drill="1"/>
-<pad name="A6" x="6.35" y="46.99" drill="1"/>
-<pad name="A7" x="3.81" y="46.99" drill="1"/>
-<pad name="A8" x="6.35" y="49.53" drill="1"/>
-<pad name="A9" x="3.81" y="49.53" drill="1"/>
-<pad name="AREF" x="3.81" y="52.07" drill="1"/>
 <pad name="DONE" x="13.97" y="3.81" drill="1"/>
 <pad name="GND@1" x="8.89" y="59.69" drill="1" shape="square"/>
 <pad name="GND@2" x="11.43" y="59.69" drill="1"/>
 <pad name="GND@3" x="8.89" y="6.35" drill="1" shape="square"/>
 <pad name="GND@4" x="11.43" y="6.35" drill="1"/>
-<pad name="GND@5" x="6.35" y="52.07" drill="1" shape="square"/>
 <pad name="GND@6" x="69.85" y="3.81" drill="1"/>
 <pad name="RAW@1" x="8.89" y="57.15" drill="1"/>
 <pad name="RAW@2" x="8.89" y="3.81" drill="1"/>
@@ -797,16 +788,6 @@
 <text x="66.3225" y="1.27" size="0.8128" layer="33" font="vector" ratio="18">TCK</text>
 <text x="12.96" y="8.0625" size="0.8128" layer="33" font="vector" ratio="18">SUS</text>
 <text x="12.585" y="1.27" size="0.8128" layer="33" font="vector" ratio="18">DONE</text>
-<text x="8.165" y="42.495" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A0</text>
-<text x="1.2025" y="50.125" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A9</text>
-<text x="1.2025" y="42.495" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A1</text>
-<text x="8.165" y="45.205" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A4</text>
-<text x="1.2025" y="45.205" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A5</text>
-<text x="8.165" y="47.665" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A6</text>
-<text x="1.2025" y="47.665" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A7</text>
-<text x="8.165" y="50.125" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">A8</text>
-<text x="8.165" y="53.09" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">GND</text>
-<text x="1.2025" y="53.465" size="0.8128" layer="33" font="vector" ratio="18" rot="SR270">AREF</text>
 <text x="7.874" y="8.0625" size="0.8128" layer="33" font="vector" ratio="18">GND</text>
 <hole x="3.81" y="3.81" drill="3.2"/>
 <hole x="3.81" y="59.69" drill="3.2"/>
@@ -1210,23 +1191,12 @@
 <devicesets>
 <deviceset name="MOJO">
 <gates>
-<gate name="G$1" symbol="MOJO_ANALOG_HEADER" x="50.8" y="0"/>
 <gate name="G$2" symbol="MOJO_HEADER_1" x="-53.34" y="0"/>
 <gate name="G$3" symbol="MOJO_HEADER_2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="V2" package="MOJO_V2">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND@5"/>
 <connect gate="G$2" pin="+V" pad="V@1"/>
 <connect gate="G$2" pin="1" pad="1"/>
 <connect gate="G$2" pin="10" pad="10"/>
@@ -1334,16 +1304,6 @@
 </device>
 <device name="V2_NO_LABEL" package="MOJO_V2_NO_LABEL">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND@5"/>
 <connect gate="G$2" pin="+V" pad="V@1"/>
 <connect gate="G$2" pin="1" pad="1"/>
 <connect gate="G$2" pin="10" pad="10"/>
@@ -1451,16 +1411,6 @@
 </device>
 <device name="V3" package="MOJO_V3">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND@5"/>
 <connect gate="G$2" pin="+V" pad="V@1"/>
 <connect gate="G$2" pin="1" pad="1"/>
 <connect gate="G$2" pin="10" pad="10"/>
@@ -1568,16 +1518,6 @@
 </device>
 <device name="V3_NO_LABEL" package="MOJO_V3_NO_LABEL">
 <connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="A8" pad="A8"/>
-<connect gate="G$1" pin="A9" pad="A9"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="GND" pad="GND@5"/>
 <connect gate="G$2" pin="+V" pad="V@1"/>
 <connect gate="G$2" pin="1" pad="1"/>
 <connect gate="G$2" pin="10" pad="10"/>
