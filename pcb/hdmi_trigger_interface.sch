@@ -11547,16 +11547,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="SDA2_M" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="111"/>
-<wire x1="53.34" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
-<label x="43.18" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$3" pin="98"/>
+<wire x1="78.74" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
+<label x="83.82" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL2_M" class="0">
 <segment>
-<pinref part="U$1" gate="G$3" pin="112"/>
-<wire x1="78.74" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="81.28" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$3" pin="95"/>
+<wire x1="78.74" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LINE_2_3" class="0">
@@ -11675,6 +11674,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="U$1" gate="G$2" pin="7"/>
 <wire x1="106.68" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HP2_M" class="0">
+<segment>
+<pinref part="U$1" gate="G$3" pin="100"/>
+<wire x1="78.74" y1="33.02" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<label x="83.82" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HP1_M" class="0">
+<segment>
+<pinref part="U$1" gate="G$2" pin="5"/>
+<wire x1="106.68" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<label x="96.52" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
