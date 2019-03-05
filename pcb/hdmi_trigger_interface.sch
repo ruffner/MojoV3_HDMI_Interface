@@ -11228,6 +11228,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff" width="0.2032" drill="0">
+<clearance class="0" value="0.2032"/>
+<clearance class="1" value="0.2032"/>
+</class>
 </classes>
 <parts>
 <part name="U$1" library="EmbeddedMicro-Mojo" deviceset="MOJO" device="V3"/>
@@ -11395,112 +11399,112 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="127" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_N" class="0">
+<net name="CLK2_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="120"/>
 <wire x1="53.34" y1="15.24" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <label x="43.18" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_P" class="0">
+<net name="CLK2_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="121"/>
 <wire x1="78.74" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 <label x="83.82" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_N" class="0">
+<net name="D22_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="114"/>
 <wire x1="53.34" y1="22.86" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
 <label x="43.18" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_N" class="0">
+<net name="D12_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="116"/>
 <wire x1="53.34" y1="20.32" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_N" class="0">
+<net name="D02_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="118"/>
 <wire x1="53.34" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <label x="43.18" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_P" class="0">
+<net name="D02_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="119"/>
 <wire x1="78.74" y1="17.78" x2="83.82" y2="17.78" width="0.1524" layer="91"/>
 <label x="83.82" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_P" class="0">
+<net name="D12_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="117"/>
 <wire x1="78.74" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
 <label x="83.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_P" class="0">
+<net name="D22_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$3" pin="115"/>
 <wire x1="78.74" y1="22.86" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <label x="83.82" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21_N" class="0">
+<net name="D21_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="137"/>
 <wire x1="106.68" y1="17.78" x2="101.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="93.98" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_N" class="0">
+<net name="D11_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="139"/>
 <wire x1="106.68" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
 <label x="93.98" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_N" class="0">
+<net name="D01_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="141"/>
 <wire x1="106.68" y1="22.86" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 <label x="93.98" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_N" class="0">
+<net name="CLK1_N" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="143"/>
 <wire x1="106.68" y1="25.4" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
 <label x="93.98" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_P" class="0">
+<net name="CLK1_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="144"/>
 <wire x1="132.08" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <label x="137.16" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_P" class="0">
+<net name="D01_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="142"/>
 <wire x1="132.08" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
 <label x="137.16" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_P" class="0">
+<net name="D11_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="140"/>
 <wire x1="132.08" y1="20.32" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
 <label x="137.16" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21_P" class="0">
+<net name="D21_P" class="1">
 <segment>
 <pinref part="U$1" gate="G$2" pin="138"/>
 <wire x1="132.08" y1="17.78" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
@@ -11821,56 +11825,56 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="2.54" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21_P" class="0">
+<net name="D21_P" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D2+"/>
 <wire x1="78.74" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <label x="83.82" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21_N" class="0">
+<net name="D21_N" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D2-"/>
 <wire x1="78.74" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
 <label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_P" class="0">
+<net name="D11_P" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D1+"/>
 <wire x1="78.74" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
 <label x="83.82" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_N" class="0">
+<net name="D11_N" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D1-"/>
 <wire x1="78.74" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
 <label x="83.82" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_P" class="0">
+<net name="D01_P" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D0+"/>
 <wire x1="78.74" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_N" class="0">
+<net name="D01_N" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="D0-"/>
 <wire x1="78.74" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
 <label x="83.82" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_P" class="0">
+<net name="CLK1_P" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="CLK+"/>
 <wire x1="78.74" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 <label x="83.82" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_N" class="0">
+<net name="CLK1_N" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="CLK-"/>
 <wire x1="78.74" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
@@ -11893,56 +11897,56 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="2.54" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_P" class="0">
+<net name="D22_P" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D2+"/>
 <wire x1="175.26" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="180.34" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_N" class="0">
+<net name="D22_N" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D2-"/>
 <wire x1="175.26" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <label x="180.34" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_P" class="0">
+<net name="D12_P" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D1+"/>
 <wire x1="175.26" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
 <label x="180.34" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_N" class="0">
+<net name="D12_N" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D1-"/>
 <wire x1="175.26" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
 <label x="180.34" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_P" class="0">
+<net name="D02_P" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D0+"/>
 <wire x1="175.26" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
 <label x="180.34" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_N" class="0">
+<net name="D02_N" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="D0-"/>
 <wire x1="175.26" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <label x="180.34" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_P" class="0">
+<net name="CLK2_P" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="CLK+"/>
 <wire x1="175.26" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <label x="180.34" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_N" class="0">
+<net name="CLK2_N" class="1">
 <segment>
 <pinref part="U2" gate="A" pin="CLK-"/>
 <wire x1="175.26" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
@@ -12143,56 +12147,56 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <busses>
 </busses>
 <nets>
-<net name="D21_P" class="0">
+<net name="D21_P" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <label x="17.78" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D21_N" class="0">
+<net name="D21_N" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="3"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="17.78" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_P" class="0">
+<net name="D11_P" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="4"/>
 <wire x1="30.48" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <label x="17.78" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D11_N" class="0">
+<net name="D11_N" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="6"/>
 <wire x1="30.48" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="17.78" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_P" class="0">
+<net name="D01_P" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="7"/>
 <wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D01_N" class="0">
+<net name="D01_N" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="9"/>
 <wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <label x="17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_P" class="0">
+<net name="CLK1_P" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="10"/>
 <wire x1="30.48" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <label x="17.78" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK1_N" class="0">
+<net name="CLK1_N" class="1">
 <segment>
 <pinref part="HDMI_1" gate="G$1" pin="12"/>
 <wire x1="30.48" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
@@ -12227,56 +12231,56 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_P" class="0">
+<net name="D22_P" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
 <label x="83.82" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D22_N" class="0">
+<net name="D22_N" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="3"/>
 <wire x1="96.52" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <label x="83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_P" class="0">
+<net name="D12_P" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="4"/>
 <wire x1="96.52" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
 <label x="83.82" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D12_N" class="0">
+<net name="D12_N" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="6"/>
 <wire x1="96.52" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <label x="83.82" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_P" class="0">
+<net name="D02_P" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="7"/>
 <wire x1="96.52" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D02_N" class="0">
+<net name="D02_N" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="9"/>
 <wire x1="96.52" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
 <label x="83.82" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_P" class="0">
+<net name="CLK2_P" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="10"/>
 <wire x1="96.52" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 <label x="83.82" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLK2_N" class="0">
+<net name="CLK2_N" class="1">
 <segment>
 <pinref part="HDMI_2" gate="G$1" pin="12"/>
 <wire x1="96.52" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
