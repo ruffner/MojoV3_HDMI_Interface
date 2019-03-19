@@ -11220,6 +11220,95 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex" urn="urn:adsk.eagle:library:165">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="87438-06" urn="urn:adsk.eagle:footprint:8078492/1" library_version="3">
+<description>&lt;b&gt;1.50mm Pitch Pico-SPOX™ Wire-to-Board Header, Surface Mount, Right Angle, Shrouded, Nylon, 6 Circuits, Embossed Tape on Reel, Beige&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/874380643_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<wire x1="-4.8" y1="3.75" x2="-4.05" y2="3.75" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="3.75" x2="-4.05" y2="5.05" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="5.05" x2="0.75" y2="5.05" width="0.2032" layer="21"/>
+<wire x1="0.75" y1="5.05" x2="0.75" y2="-5.05" width="0.2032" layer="51"/>
+<wire x1="0.75" y1="-5.05" x2="-4.05" y2="-5.05" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="-5.05" x2="-4.05" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="-3.75" x2="-4.8" y2="-3.75" width="0.2032" layer="21"/>
+<wire x1="-4.8" y1="-3.75" x2="-4.8" y2="3.75" width="0.2032" layer="21"/>
+<smd name="1" x="0" y="3.75" dx="7" dy="0.85" layer="1"/>
+<smd name="2" x="0" y="2.25" dx="7" dy="0.85" layer="1"/>
+<smd name="3" x="0" y="0.75" dx="7" dy="0.85" layer="1"/>
+<smd name="4" x="0" y="-0.75" dx="7" dy="0.85" layer="1"/>
+<smd name="5" x="0" y="-2.25" dx="7" dy="0.85" layer="1"/>
+<smd name="6" x="0" y="-3.75" dx="7" dy="0.85" layer="1"/>
+<text x="-3.75" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.75" y="-6.75" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.8" y1="3.525" x2="2.85" y2="3.975" layer="51"/>
+<rectangle x1="0.8" y1="2.025" x2="2.85" y2="2.475" layer="51"/>
+<rectangle x1="0.8" y1="0.525" x2="2.85" y2="0.975" layer="51"/>
+<rectangle x1="0.8" y1="-0.975" x2="2.85" y2="-0.525" layer="51"/>
+<rectangle x1="0.8" y1="-2.475" x2="2.85" y2="-2.025" layer="51"/>
+<rectangle x1="0.8" y1="-3.975" x2="2.85" y2="-3.525" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="87438-06" urn="urn:adsk.eagle:package:8078913/1" type="box" library_version="3">
+<description>&lt;b&gt;1.50mm Pitch Pico-SPOX™ Wire-to-Board Header, Surface Mount, Right Angle, Shrouded, Nylon, 6 Circuits, Embossed Tape on Reel, Beige&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/874380643_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="87438-06"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MV" urn="urn:adsk.eagle:symbol:8078125/1" library_version="3">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="M" urn="urn:adsk.eagle:symbol:8078124/1" library_version="3">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="87438-06" urn="urn:adsk.eagle:component:8079435/1" prefix="X" library_version="3">
+<description>&lt;b&gt;Wire-to-Board  1.50mm (.059") Pitch Header - Right Angle, SMT, Shrouded&lt;/b&gt;&lt;p&gt;
+Source: http://www.molex.com/product/micro/87438.html</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="M" x="0" y="-7.62" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="87438-06">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8078913/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="87438-0643" constant="no"/>
+<attribute name="OC_FARNELL" value="1756938" constant="no"/>
+<attribute name="OC_NEWARK" value="88K3155" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11300,6 +11389,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="CAMERA1" library="S6B-PH-K-S_LF__SN_" deviceset="S6B-PH-K-S(LF)(SN)" device=""/>
 <part name="CAMERA2" library="S6B-PH-K-S_LF__SN_" deviceset="S6B-PH-K-S(LF)(SN)" device=""/>
+<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87438-06" device="" package3d_urn="urn:adsk.eagle:package:8078913/1"/>
+<part name="X2" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="87438-06" device="" package3d_urn="urn:adsk.eagle:package:8078913/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -12565,6 +12656,44 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="CAMERA2" gate="G$1" x="177.8" y="35.56" smashed="yes">
 <attribute name="NAME" x="177.8" y="43.69968125" size="1.780559375" layer="95"/>
 <attribute name="VALUE" x="177.8" y="22.8446" size="1.780159375" layer="96"/>
+</instance>
+<instance part="X1" gate="-1" x="86.36" y="68.58" smashed="yes">
+<attribute name="NAME" x="88.9" y="67.818" size="1.524" layer="95"/>
+<attribute name="VALUE" x="85.598" y="69.977" size="1.778" layer="96"/>
+</instance>
+<instance part="X1" gate="-2" x="86.36" y="66.04" smashed="yes">
+<attribute name="NAME" x="88.9" y="65.278" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-3" x="86.36" y="63.5" smashed="yes">
+<attribute name="NAME" x="88.9" y="62.738" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-4" x="86.36" y="60.96" smashed="yes">
+<attribute name="NAME" x="88.9" y="60.198" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-5" x="86.36" y="58.42" smashed="yes">
+<attribute name="NAME" x="88.9" y="57.658" size="1.524" layer="95"/>
+</instance>
+<instance part="X1" gate="-6" x="86.36" y="55.88" smashed="yes">
+<attribute name="NAME" x="88.9" y="55.118" size="1.524" layer="95"/>
+</instance>
+<instance part="X2" gate="-1" x="180.34" y="68.58" smashed="yes">
+<attribute name="NAME" x="182.88" y="67.818" size="1.524" layer="95"/>
+<attribute name="VALUE" x="179.578" y="69.977" size="1.778" layer="96"/>
+</instance>
+<instance part="X2" gate="-2" x="180.34" y="66.04" smashed="yes">
+<attribute name="NAME" x="182.88" y="65.278" size="1.524" layer="95"/>
+</instance>
+<instance part="X2" gate="-3" x="180.34" y="63.5" smashed="yes">
+<attribute name="NAME" x="182.88" y="62.738" size="1.524" layer="95"/>
+</instance>
+<instance part="X2" gate="-4" x="180.34" y="60.96" smashed="yes">
+<attribute name="NAME" x="182.88" y="60.198" size="1.524" layer="95"/>
+</instance>
+<instance part="X2" gate="-5" x="180.34" y="58.42" smashed="yes">
+<attribute name="NAME" x="182.88" y="57.658" size="1.524" layer="95"/>
+</instance>
+<instance part="X2" gate="-6" x="180.34" y="55.88" smashed="yes">
+<attribute name="NAME" x="182.88" y="55.118" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
