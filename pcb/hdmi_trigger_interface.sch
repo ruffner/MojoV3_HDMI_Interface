@@ -12754,6 +12754,26 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <junction x="162.56" y="27.94"/>
 <label x="162.56" y="25.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-5" pin="S"/>
+<wire x1="83.82" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="58.42" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-6" pin="S"/>
+<wire x1="78.74" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="55.88" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
+<junction x="78.74" y="55.88"/>
+<label x="73.66" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-5" pin="S"/>
+<wire x1="177.8" y1="58.42" x2="172.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="58.42" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-6" pin="S"/>
+<wire x1="172.72" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
+<junction x="172.72" y="55.88"/>
+<label x="170.18" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -12902,6 +12922,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <junction x="73.66" y="40.64"/>
 <pinref part="CAMERA1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-1" pin="S"/>
+<wire x1="83.82" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="73.66" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -12911,6 +12936,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <wire x1="76.2" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="38.1"/>
 <pinref part="CAMERA1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-2" pin="S"/>
+<wire x1="83.82" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="73.66" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -12922,6 +12952,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <junction x="73.66" y="35.56"/>
 <pinref part="CAMERA1" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="X1" gate="-3" pin="S"/>
+<wire x1="83.82" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
+<label x="73.66" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
@@ -12931,6 +12966,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <wire x1="76.2" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 <junction x="76.2" y="33.02"/>
 <pinref part="CAMERA1" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-4" pin="S"/>
+<wire x1="83.82" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="73.66" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -12942,6 +12982,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <junction x="170.18" y="40.64"/>
 <pinref part="CAMERA2" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="177.8" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
+<label x="170.18" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$10" class="0">
 <segment>
@@ -12951,6 +12996,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <wire x1="167.64" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
 <junction x="167.64" y="38.1"/>
 <pinref part="CAMERA2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-2" pin="S"/>
+<wire x1="177.8" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
+<label x="170.18" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -12962,6 +13012,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <junction x="170.18" y="35.56"/>
 <pinref part="CAMERA2" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="X2" gate="-3" pin="S"/>
+<wire x1="177.8" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
+<label x="170.18" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -12971,6 +13026,11 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <wire x1="167.64" y1="33.02" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
 <junction x="167.64" y="33.02"/>
 <pinref part="CAMERA2" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-4" pin="S"/>
+<wire x1="177.8" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
+<label x="170.18" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
