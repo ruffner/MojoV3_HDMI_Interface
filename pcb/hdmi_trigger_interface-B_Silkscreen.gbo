@@ -1,0 +1,27 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.0*
+G04 #@! TF.CreationDate,2024-05-03T13:58:39-04:00*
+G04 #@! TF.ProjectId,hdmi_trigger_interface,68646d69-5f74-4726-9967-6765725f696e,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.0) date 2024-05-03 13:58:39*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.508000*%
+G04 APERTURE END LIST*
+D10*
+X206155801Y-46511300D02*
+G75*
+G02*
+X205393801Y-46511300I-381000J0D01*
+G01*
+X205393801Y-46511300D02*
+G75*
+G02*
+X206155801Y-46511300I381000J0D01*
+G01*
+M02*

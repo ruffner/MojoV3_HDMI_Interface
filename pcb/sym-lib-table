@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "hdmi_trigger_interface-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/hdmi_trigger_interface-eagle-import.kicad_sym")(options "")(descr ""))
+)

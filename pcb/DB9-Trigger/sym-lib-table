@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DB9-Trigger-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/DB9-Trigger-eagle-import.kicad_sym")(options "")(descr ""))
+)
